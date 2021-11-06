@@ -1,0 +1,7 @@
+<div class="row" (click)="onClick()">
+    <h1 class="title">{{label}}{{value}}% ...</h1>
+    <div class="pb-out">
+        <div [ngStyle]="{'width.%':value}" class="pb-in">
+        </div>
+    </div>
+</div>
